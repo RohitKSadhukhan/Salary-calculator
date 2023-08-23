@@ -1,0 +1,59 @@
+/* Salarycalc.css */
+
+.salary-calculator {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 4cm;
+    background-image: url('../public/image.jpg');
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .calculate-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #c82333;
+  }
+  
+  .results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .results-heading {
+    font-weight: bold;
+  }
+  
+  .results-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
